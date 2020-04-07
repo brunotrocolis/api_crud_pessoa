@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: ${ds_url}
+    username: ${ds_username}
+    password: ${ds_password}
+  jpa:
+    show-sql: true
